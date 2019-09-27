@@ -23,6 +23,20 @@ https://stackoverflow.com/questions/14698589/fontawesome-not-available-as-a-font
   </head>
   <body>
     <!-- *Begin Nav -->
+    <div class="mobile-nav-bar title-bar">
+  <div class="title-bar-left">
+    <button class="menu-icon" type="button"></button>
+  </div>
+  <div class="title-bar-center">
+    <span class="title-bar-text">Jet Blue</span>
+  </div>
+  <div class="title-bar-right">
+    <span class="title-bar-text">Actions</span>
+    <span class="title-bar-text"><a href="#"><i class="fa fa-home title-bar-logo"></i></a></span>
+  </div>
+</div>
+
+
     <!-- *End Nav -->
 
 
@@ -79,7 +93,56 @@ https://stackoverflow.com/questions/14698589/fontawesome-not-available-as-a-font
     </div>
     <!-- *End Dashboard -->
 
+    
+    <div class="off-canvas mobile-action-sheet off-canvas-absolute position-bottom" id="payments-action-sheet" data-off-canvas>
+      <div class="mobile-action-sheet-inner">
+
+        <button href="#" class="button action-sheet-toggle" type="button" data-toggle>Open Action Sheet</button>
+
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+        <p>This action sheet can contain all sorts of things</p>
+        <h5>Content</h5>
+        <p>
+          Check Check it
+        </p>
+        <h5>Forms</h5>
+        <form>
+          <label>Fill me out
+            <input type="text"></input>
+          </label>
+        </form>
+
+        <h5>Buttons</h5>
+        <button href="#" class="button hollow white">Push the button</button>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
     <!-- *Begin Footer -->
+    <div class="mobile-bottom-bar">
+  <a href="#" class="footer-link">
+    <i class="fa fa-cog"></i> <span class='footer-text'>Settings</span>
+  </a>
+  <a href="#" class="footer-link">
+    <i class="fa fa-sign-out"></i> <span class='footer-text'>Log out</span>
+  </a>
+</div>
+
+
+
     <!-- *End Footer -->
 
 
